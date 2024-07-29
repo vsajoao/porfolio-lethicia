@@ -1,0 +1,41 @@
+.containerCom {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+
+.textosCom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+
+
+}
+
+.textosCom>p {
+    width: 400px;
+    height: 300px;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+}
+
+.linhaAzul {
+    width: 480px;
+    height: 5px;
+    background-color: #083C64;
+    top: 50%;
+    align-self: center;
+    transform: translateY(-50%);
+    border-radius: 10px;
+
+}
+
+.botaoMid {
+    display: flex;
+    align-self: center;
+    margin-top: 5rem;
+
+}

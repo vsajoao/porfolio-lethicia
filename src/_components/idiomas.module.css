@@ -1,0 +1,52 @@
+.idiomas {
+    display: flex;
+    justify-content: row;
+    gap: 10rem;
+    border-radius: 8px;
+    color: white;
+}
+
+.linguagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.linguagemHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.linguagemNome {
+    margin-right: 40px;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: black;
+}
+
+.nivel {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.filled {
+    background-color: white;
+}
+
+.instituicao {
+    font-size: 16px;
+    font-family: "Merriweather", serif;
+
+}

@@ -1,0 +1,35 @@
+.sectionCom {
+    background-color: #083C64;
+    height: 135vh;
+}
+
+.containerCom {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-top: 1rem;
+    gap: 10px;
+}
+
+.containerText>h1 {
+    font-size: 52px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.containerText>p {
+    width: 1000px;
+    text-align: left;
+    font-size: 24px;
+    font-family: "Merriweather", serif;
+    color: white;
+
+}

@@ -1,0 +1,17 @@
+.titulo {
+    font-size: 36px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* Alinha o texto e a linha verticalmente */
+}
+
+.titulo::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 1px;
+    background-color: white;
+    margin-left: 10px;
+}

@@ -1,0 +1,112 @@
+.containerHome {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15rem;
+    align-items: flex-start;
+
+
+}
+
+.containerText>h1 {
+    font-size: 128px;
+    margin-bottom: 0;
+    color: #083C64;
+}
+
+.containerText>h2 {
+    font-size: 64px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #083C64
+}
+
+.containerText>p {
+    font-size: 20px;
+    width: 622px;
+    height: 100px;
+    margin-top: 0;
+    text-align: justify;
+    font-family: "Merriweather", serif;
+
+}
+
+.containerContato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15rem;
+    margin-top: 5rem;
+
+}
+
+.caixaAzul {
+    width: 367px;
+    height: 450px;
+    background-color: #083C64;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+.caixaCinza {
+    width: 367px;
+    height: 200px;
+    background-color: #9A9AA0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caixaCinza>h1 {
+    font-size: 64px;
+    margin-top: 10px;
+    color: white;
+    background-color: #9A9AA0;
+    margin-bottom: 20px;
+
+}
+
+.caixaCinza>ul {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    align-items: flex-start;
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+    background-color: #9A9AA0;
+}
+
+.caixaCinza>ul>li {
+    background-color: #9A9AA0;
+    margin-bottom: 5px;
+
+}
+
+.caixaCinza>ul>li>a {
+    text-decoration: none;
+    color: white;
+    background-color: #9A9AA0;
+    padding: 5px 10px;
+    font-family: "Merriweather", serif;
+
+}
+
+.imgHome {
+    background: none;
+}

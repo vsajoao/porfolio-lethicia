@@ -1,0 +1,111 @@
+.containerCurriculo {
+    background: #083C64;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 170vh;
+}
+
+.direita {
+    width: 40%;
+}
+
+
+
+.containerFormacao {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+
+}
+
+.containerFormacao>h3 {
+    color: white;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    margin-top: 0;
+}
+
+.containerFormacao>h4 {
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    color: black;
+    margin-top: 0;
+}
+
+.containerFormacao>p {
+    font-size: 16px;
+    color: white;
+    font-family: "Merriweather", serif;
+    margin-top: 0;
+}
+
+.containerAperfeicoamento {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+
+
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.containerColunas {
+    display: flex;
+    flex-direction: row;
+}
+
+.column>h4 {
+    color: black;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.column>p {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    width: 400px;
+}
+
+.containerVoluntariado {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.containerVoluntariado>h3 {
+    color: black;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.containerVoluntariado>p {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    width: 400px;
+}
+
+.containerEventos {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.containerEventos>h3 {
+    color: black;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.containerEventos>p {
+    color: white;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    width: 400px;
+}

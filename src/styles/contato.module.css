@@ -1,0 +1,36 @@
+* {
+    font-family: "Merriweather", serif;
+}
+
+.containerTextos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+
+}
+
+.containerTextos>h3 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 400;
+    font-family: "Merriweather", serif
+}
+
+.containerTextos>h1 {
+    font-size: 64px;
+    color: #083C64;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-family: "Merriweather", serif
+}
+
+.containerTextos>p {
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "Merriweather", serif
+}
