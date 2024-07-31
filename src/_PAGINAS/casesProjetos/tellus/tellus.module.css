@@ -1,3 +1,45 @@
 section {
-    height: 100vh;
+    height: fit-content;
+    margin-bottom: 3rem;
+}
+
+.containerTexto {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+
+}
+
+.containerTexto>ul>li {
+    font-size: 24px;
+    list-style-type: disc;
+
+}
+
+.containerTexto>h3 {
+    font-size: 36px;
+    color: #083C64;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: row;
+}
+
+.containerResp {
+    margin-left: 10rem;
+    align-self: center;
+}
+
+.containerResp>h3 {
+    font-size: 36px;
+    color: #083C64;
+}
+
+.containerResp>ul {
+    margin-top: 0;
+}
+
+.containerResp>ul>li {
+    font-size: 24px;
 }

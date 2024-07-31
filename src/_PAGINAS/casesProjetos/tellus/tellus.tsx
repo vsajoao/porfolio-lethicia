@@ -1,11 +1,12 @@
 import Page from '../../../_components/casePage/tituloPage'
+import { Footer } from '../../../tsxhome/footer'
 import { Nav } from '../../../tsxhome/nav'
 import styles from './tellus.module.css'
 export function Tellus() {
     return (
         <section>
             <Nav />
-            <section>
+            <section className={styles.home}>
                 <div>
                     <Page
                         empresa='Instituto Tellus'
@@ -17,21 +18,35 @@ export function Tellus() {
                         linkBotao='/projetos'
                     />
                 </div>
-                <div className={styles.containerTexto}>
-                    <ul>
+                <div className={styles.containerInfo}>
+                    <div className={styles.containerTexto}>
                         <h3>Fundação Maria Cecília Souto Vidigal</h3>
-                        <li>INTEGRAÇÃO DAS OFERTAS SOCIOASSISTENCIAS SUAS E PCF</li>
-                        <li>PROTOCOLO INTEGRADO DE ATENÇÃO À PRIMEIRA INFÂNICA</li>
-                    </ul>
-                    <ul>
+                        <ul>
+                            <li>INTEGRAÇÃO DAS OFERTAS SOCIOASSISTENCIAS SUAS E PCF</li>
+                            <li>PROTOCOLO INTEGRADO DE ATENÇÃO À PRIMEIRA INFÂNICA</li>
+                        </ul>
                         <h3>Fundação ABInbev/Secretaria de Educação do DF </h3>
-                        <li>PROTOCOLO INTEGRADO DE ATENÇÃO À PRIMEIRA INFÂNICA</li>
-                        <a href="">https://www.youtube.com/playlist?list=PLWiuEbYTrUw8Lw5KF9cGwxiljdas3z1Z8</a>
-                    </ul>
+                        <ul>
+                            <li><a href="https://www.youtube.com/playlist?list=PLWiuEbYTrUw8Lw5KF9cGwxiljdas3z1Z8">Protocolo Integrado de Atenção à Primeiríssima Infância</a></li>
+                        </ul>
+                        <h3>United Way Brasil</h3>
+                        <ul>
+                            <li>Estudo de Viabilidade do Programa Crescer Aprendendo</li>
+                        </ul>
+                    </div>
+                    <div className={styles.containerResp}>
+                        <h3>REPSONSABILIDADES</h3>
+                        <ul>
+                            <li>DIAGNÓSTICO,COCRIAÇÃO E IMPLEMENTAÇÃO DE PROJETOS</li>
+                            <li>DESIGN ESTRATÉGICO E DESIGN THINKING</li>
+                            <li>TEORIA DA MUDANÇA</li>
+                            <li>GESTÃO DE EQUIPE</li>
+                        </ul>
+                    </div>
                 </div>
             </section>
 
-
+            <Footer />
 
         </section>
 

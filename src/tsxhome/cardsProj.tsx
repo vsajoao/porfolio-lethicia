@@ -10,19 +10,19 @@ const CardsProj: React.FC = () => {
             imgSrc: imgTellus,
             title: 'instituto tellus',
             description: 'No Instituto Tellus, lidero como consultora em Projetos de Inovação e Políticas Públicas, focando em diagnóstico, cocriação e implementação estratégica, além de aplicar Design Thinking e Teoria da Mudança.',
-            link: '#'
+            link: '/tellus'
         },
         {
             imgSrc: imgTembici,
             title: 'tembici',
             description: 'Na Tembici, coordenei as Relações Institucionais no Brasil e em Bogotá, focando em planejamento estratégico, gestão de equipe, facilitação e relacionamento com a sociedade civil.',
-            link: '#'
+            link: '/tembici'
         },
         {
             imgSrc: imgUnited,
             title: 'united way brasil',
             description: 'Como consultora do projeto EAD "Crescer Aprendendo", liderei o planejamento, gestão estratégica, criação de conteúdo, trilha de aprendizagem, kit de formação, produção de vídeos e avaliação.',
-            link: '#'
+            link: '/unitedway'
         }
     ];
 

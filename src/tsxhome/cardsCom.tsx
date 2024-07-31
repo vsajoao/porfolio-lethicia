@@ -22,7 +22,7 @@ const CardsCom: React.FC = () => {
             imgSrc: imgFood,
             title: 'Food Flow',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/foodflow'
         }
     ];
 

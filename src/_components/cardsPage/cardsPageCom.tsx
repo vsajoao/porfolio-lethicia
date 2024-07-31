@@ -25,25 +25,25 @@ const CardsPageCom: React.FC = () => {
             imgSrc: imgFoodflow,
             title: 'Food Flow',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/foodflow'
         },
         {
             imgSrc: imgMentemestra,
             title: 'Mente Mestra',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/mentemestra'
         },
         {
             imgSrc: imgExpo,
             title: 'Expo Favela Brasilia',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/expofavela'
         },
         {
             imgSrc: imgPilastra,
             title: 'A Pilastra',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/apilastra'
         }
 
 

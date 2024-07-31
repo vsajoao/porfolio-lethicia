@@ -1,0 +1,18 @@
+.containerText {
+    display: flex;
+    margin-left: 5rem;
+    flex-direction: column;
+}
+
+.containerText>h3 {
+    font-size: 36px;
+    color: #083C64;
+}
+
+.containerText>ul {
+    margin-top: 0;
+}
+
+.containerText>ul>li {
+    font-size: 24px;
+}

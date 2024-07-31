@@ -1,0 +1,50 @@
+.containerInfo {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5rem;
+    gap: 10rem;
+}
+
+section {
+    height: fit-content;
+    margin-bottom: 2rem;
+}
+
+.containerInfo>div>h2 {
+    font-size: 36px;
+    color: #083C64;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.containerText>h3 {
+    font-size: 36px;
+    color: #083c64;
+}
+
+.containerText>p {
+    width: 650px;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+}
+
+.containerResp {
+    align-self: center;
+}
+
+.containerResp>h3 {
+    font-size: 36px;
+    color: #083C64;
+}
+
+.containerResp>ul {
+    margin-top: 0;
+}
+
+.containerResp>ul>li {
+    font-size: 24px;
+}

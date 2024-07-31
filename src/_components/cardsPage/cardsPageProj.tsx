@@ -12,31 +12,31 @@ const CardsPageProj: React.FC = () => {
             imgSrc: imgTellus,
             title: 'Instituto Tellus',
             description: 'Exerci o papel de coordenadora de conteúdo para marcas como CAIXA e Senac RJ, focando em planejamento, redação criativa e gestão de equipe para campanhas digitais impactantes.',
-            link: '#'
+            link: '/tellus'
         },
         {
             imgSrc: imgTembici,
             title: 'Tembici',
             description: 'Na The Hub, coordenei criação para Banco do Brasil, CAIXA, Governo Federal, agências. Mediei entre influenciadores e marcas como Banco do Brasil e Irmãos Fittipaldi.',
-            link: '#'
+            link: '/tembici'
         },
         {
             imgSrc: imgTravessia,
             title: 'Travessia Políticas Públicas',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/travessia'
         },
         {
             imgSrc: imgUnited,
-            title: 'UNited Way Brasil',
+            title: 'United Way Brasil',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/unitedway'
         },
         {
             imgSrc: imgRedes,
             title: 'RUAS-Rede Urbana de Ações',
             description: 'Direção de Comunicação e Produção de Conteúdo na Food Flow, uma startup de combate ao desperdício de comida.',
-            link: '#'
+            link: '/ruas'
         }
 
 
